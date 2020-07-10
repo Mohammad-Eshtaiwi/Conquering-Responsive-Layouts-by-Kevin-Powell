@@ -14,7 +14,7 @@
 
 - rem unit based on the body font size.
 
-# Day 2
+# Day 3
 
 ## Max Width
 

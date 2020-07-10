@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Roboto;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+}
+.btn {
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+  background-color: #38cfd9;
+  font-weight: 900;
+}
+
+.hero {
+  background-color: #136c72;
+  padding: 5em;
+  color: #fff;
+}
+.hero p,
+.hero a {
+  font-size: 1.325rem;
+}
+.hero p {
+  margin-bottom: 4rem;
+}
+.hero h2 {
+  font-size: 3rem;
+}
+.hero .btn {
+  color: #23424a;
+  transition: all 0.3s ease;
+}
+.hero .btn:hover {
+  color: #fff;
+}
+@media all and (min-width: 720px) {
+  .strict-max-width {
+    max-width: 60%;
+  }
+}
+@media all and (max-width: 720px) {
+  html {
+    font-size: 15px;
+  }
+}
